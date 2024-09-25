@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/styles/output.css" rel="stylesheet">
+        <title>Food - Abid H.</title>
+    </head>
+
+    <body class="bg-gradient-to-tl from-slate-50 via-sky-100 to-cyan-100 text-center justify-center min-h-screen">
+        <nav class="max-w-screen sticky flex justify-end items-center text-center py-4 px-8 m-6 mb-10 top-0 shadow-md bg-emerald-50 z-10">
+            <p class="mr-auto font-rocksalt font-bold text-2xl hover:text-red-400 transition ease-out duration-150"><a href="/index.html">Abid H.</a></p>
+            <ul class="flex">
+                <li class="line-block pr-5 font-plexmono tracking-tighter text-2xl hover:text-sky-400 transition ease-out duration-150"><a class="textFade" href="/quiz1/hometown.html">Hometown</a></li>
+                <li class="line-block pr-5 font-plexmono tracking-tighter text-2xl hover:text-sky-400 transition ease-out duration-150"><a class="textFade" href="/quiz1/food.html">Foods</a></li>
+                <li class="line-block pr-5 font-plexmono tracking-tighter text-2xl hover:text-sky-400 transition ease-out duration-150"><a class="textFade" href="/quiz1/tourist.html">Tourist</a></li>
+                <li class="line-block pr-5 font-plexmono tracking-tighter text-2xl hover:text-sky-400 transition ease-out duration-150"><a class="textFade" href="/quiz1/profile.html">Profile</a></li>
+            </ul>
+        </nav> 
+
+        <section class="p-10">
+            <h1 class="text-9xl font-vibur">Welcome!</h1>
+            <p class="text-2xl font-sans font-light p-3">Take a look around! You might find what you like ;)</p>
+        </section>
+        
+        <div class="flex flex-wrap justify-center items-center">
+            <a href="/quiz1/hometown.html">
+                <div class="flex justify-center items-center bg-[url('/images/hometown/hero.jpg')] bg-cover w-72 h-96 bg-center rounded-2xl hover:bg-blend-darken hover:bg-black hover:bg-opacity-50 transition ease out duration-500 text-white text-opacity-0 hover:text-opacity-100 shadow-2xl hover:shadow-black mx-7 my-7">
+                    <h3 class="text-5xl font-serif">Hometown</h3>
+                </div>
+            </a>
+            <a href="/quiz1/food.html">
+                <div class="flex justify-center items-center bg-[url('/images/food/hero.jpg')] bg-cover w-72 h-96 bg-center rounded-2xl hover:bg-blend-darken hover:bg-black hover:bg-opacity-50 transition ease out duration-500 text-white text-opacity-0 hover:text-opacity-100 shadow-2xl hover:shadow-black mx-7 my-7">
+                    <h3 class="text-5xl font-serif">Foods</h3>
+                </div>
+            </a>
+            <a href="/quiz1/tourist.html">
+                <div class="flex justify-center items-center bg-[url('/images/tourist/hero.jpg')] bg-cover w-72 h-96 rounded-2xl hover:bg-blend-darken hover:bg-black hover:bg-opacity-50 transition ease out duration-500 text-white text-opacity-0 hover:text-opacity-100 shadow-2xl hover:shadow-black mx-7 my-7">
+                    <h3 class="text-5xl font-serif">Tourism</h3>
+                </div>
+            </a>
+            <a href="/quiz1/profile.html">
+                <div class="flex justify-center items-center bg-[url('/images/profile/profile_bust.jpg')] bg-cover w-72 h-96 rounded-2xl bg-center hover:bg-blend-darken hover:bg-black hover:bg-opacity-50 transition ease out duration-500 text-white text-opacity-0 hover:text-opacity-100 shadow-2xl hover:shadow-black mx-7 my-7">
+                    <h3 class="text-5xl font-serif">Profile</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <footer class="font-mono m-20 text-lg">
+            © <span id="year"></span> Abid Hermawan
+        </footer>
+    </body>
+</html>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
