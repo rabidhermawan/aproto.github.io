@@ -658,6 +658,10 @@ video {
   height: 8rem;
 }
 
+.h-96{
+  height: 24rem;
+}
+
 .h-\[250px\]{
   height: 250px;
 }
@@ -676,6 +680,10 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-72{
+  width: 18rem;
 }
 
 .w-96{
@@ -801,6 +809,10 @@ video {
   background-image: url('/images/profile/featured/fp-os.png');
 }
 
+.bg-\[url\(\'\/images\/profile\/profile_bust\.jpg\'\)\]{
+  background-image: url('/images/profile/profile_bust.jpg');
+}
+
 .bg-\[url\(\'\/images\/tourist\/hero\.jpg\'\)\]{
   background-image: url('/images/tourist/hero.jpg');
 }
@@ -883,6 +895,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -960,6 +976,10 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-vibur{
+  font-family: Vibur;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -982,6 +1002,11 @@ video {
 
 .text-6xl{
   font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-9xl{
+  font-size: 8rem;
   line-height: 1;
 }
 
@@ -1125,11 +1150,6 @@ video {
   background-blend-mode: darken;
 }
 
-.hover\:shadow-amber-400:hover{
-  --tw-shadow-color: #fbbf24;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .hover\:shadow-black:hover{
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
@@ -1140,13 +1160,13 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:shadow-cyan-400:hover{
-  --tw-shadow-color: #22d3ee;
+.hover\:shadow-green-400:hover{
+  --tw-shadow-color: #4ade80;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:shadow-emerald-400:hover{
-  --tw-shadow-color: #34d399;
+.hover\:shadow-orange-500:hover{
+  --tw-shadow-color: #f97316;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -1165,17 +1185,7 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:shadow-orange-500:hover{
-  --tw-shadow-color: #f97316;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .hover\:shadow-yellow-400:hover{
   --tw-shadow-color: #facc15;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:shadow-green-400:hover{
-  --tw-shadow-color: #4ade80;
   --tw-shadow: var(--tw-shadow-colored);
 }
